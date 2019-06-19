@@ -1,10 +1,9 @@
 import React from 'react';
-import App from '../App';
 import './Button.css';
 
 function Button(props) {
   return (
-    <button className='button' onClick={props.onClick}>
+    <button className='btn btn-success btn-first-page' onClick={props.onClick}>
     {props.text}
     </button>
   )
